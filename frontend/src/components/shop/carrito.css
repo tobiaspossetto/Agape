@@ -1,0 +1,59 @@
+.container{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+   
+}
+
+
+
+.column{
+    
+   
+   height:auto;
+   margin-bottom: 80px;
+}
+
+.nombre{
+  
+    color:white;
+}
+.c-titulo{
+    font-weight: 500;
+}
+tr th{
+    font-weight: 400;
+    font-size:17px;
+     
+}
+tr td{
+    font-weight: 400;
+    font-size:17px;
+   text-align: center;
+}
+
+.cantidad{
+    width: 50px;
+}
+
+
+
+
+/* .carrito{
+ 
+    background-color:antiquewhite;
+    height:500px;
+    display:flex;
+    
+    justify-content:space-between;
+}
+
+.fila{
+   text-align:center;
+    width:50%;
+    height: 80px;
+}
+
+.seccion-contenido{
+    margin: 0;
+} */

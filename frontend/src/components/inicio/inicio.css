@@ -1,0 +1,269 @@
+.inicio{
+    padding-top: 200px;
+}
+
+.container-anuncios{
+    padding: 5%;
+}
+
+
+.card-body{
+    background-color: #ffab40;
+}
+
+.card-body-info p{
+    font-size: 20px;
+}
+
+.nosotros {
+    background-color: #0d0f14;
+    padding: 20px;
+    margin-top: 80px;
+    border:none;
+    padding-bottom: 100px;
+}
+
+.nosotros-img {
+    margin: auto;
+    text-align: center;
+
+}
+
+.nosotros-img img {
+    width: 100%;
+}
+
+.nosotros-info {
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.nosotros-info .nosotros-info-text h1{
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.nosotros-info .nosotros-info-text p{
+    width: 90%;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.nosotros-info-btn{
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.nosotros-info-btn .btn{
+    margin: 10px;
+    width: 38%;
+    padding: 6px;
+    font-size: 15px;
+    
+}
+
+.row-contacto{
+    background-color: #0d0f14;
+    padding-bottom: 100px;
+   
+}
+
+ .contacto {
+     border-radius: 5px;
+    width: 100%;
+    background-color: #fff8f8;
+    margin-bottom: 50px;
+  }
+  
+   
+  
+   .contacto h4 {
+
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 400;
+  }
+  
+   .contacto .form {
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+   .contacto .form .nombre {
+       width: 100%;
+    background-color: #2e2e2e;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+  
+   .contacto .form .nombre::placeholder,
+   .contacto .form .correo::placeholder,
+   .contacto .form .mensaje::placeholder {
+    color: #ffffff;
+  }
+  
+   .contacto .form .correo {
+    width: 100%;
+    background-color: #2e2e2e;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+  
+   .contacto .form .mensaje {
+    width: 100%;
+    background-color: #2e2e2e;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 1px;
+    margin-bottom: 50px;
+  }
+  
+   .contacto .form .submit {
+     font-size: 20px;
+     margin-bottom: 40px;
+  }
+  
+
+
+
+@media (min-width: 768px) {
+    .inicio{
+        padding-top: 150px;
+    }
+    
+/*    
+    .contacto form div label{
+        font-size:20px;
+        font-weight: 400;
+    }
+    .contacto form div input,
+    .contacto form textarea{
+       width: 100%;
+       margin: auto;
+    }
+     */
+
+
+
+    .card-anuncio {
+        width: 60%;
+    }
+
+    .nosotros-img img {
+        width: 60%;
+    }
+    /*
+    .blog-card .photo {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-size: cover;
+        background-attachment:inherit;
+        
+        background-repeat: no-repeat;
+     
+        
+    }*/
+
+
+    .nosotros-info-btn{
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row;
+    }
+    
+    .nosotros-info-btn .btn{
+        margin: 5px;
+        width: 30%;
+        font-size: 25px;
+    }
+    
+
+    .nosotros-info .nosotros-info-text h1{
+        font-weight: 300;
+        font-size: 60px;
+ 
+    }
+    .nosotros-info .nosotros-info-text p{
+        font-weight: 300;
+        font-size: 25px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .contacto .form {
+        
+        width: 100%;
+      
+      }
+
+      .contacto .form .submit {
+     
+        margin-bottom: 0px;
+     }
+
+     .contacto h4 {
+
+        padding-top: 30px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-weight: 500;
+      }
+      .contacto .form {
+        padding-top: 20px;
+        
+      }
+      .contacto {
+        border-radius: 0px;
+        margin-bottom: 0px;
+     }
+     
+     .card-body-info p{
+        font-size: 18px;
+    }
+}

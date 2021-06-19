@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.ocultar{
+
+    display: none;
+    transition: all 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 2s;
+}
+
+.header{
+    background: #0d0f14;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+   
+}
+.header-img{
+    width: 110px;
+}
+.header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+
+}
+.header div .btn{
+    width: 60%;
+    padding: 10px;
+    margin: 0;
+    font-size:15px;
+    margin-bottom: 0;
+    height: 45px;
+    
+}
+
+.header div  .btn-login{
+    margin-right: 10px;
+}
+
+.navigation{
+    top: 0;
+    position:static;
+    z-index:100 ;
+    width: 100%;
+    
+   
+}
+
+
+.negro{
+    background:#0d0f14;
+    color: white;
+    transition: background-color 0.3s linear;
+}
+.negro .link{
+    color: white;
+}
+
+.blanco{
+    background:rgba(255, 255, 255, 0.89);
+    color: black;
+    transition: background-color 0.3s linear;
+}
+
+.navbar{
+   
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.navbar-ul{
+    margin:0px;
+    
+}
+.link{
+    margin-right: 10px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+.link:hover{
+    color: #FF8F00;
+}
+
+.carritoIMG{
+    width: 40px;
+    margin-right: 5px;
+}
+
+@media (max-width: 370px) {
+    .header div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+       
+    }
+
+    .header div .btn{
+        width: 100%;
+       padding: 5px;
+        margin: 0;
+        height: 35px;
+        margin-bottom: 10px;
+        
+    }
+
+    .carritoIMG{
+        width: 35px;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .blanco{
+        background-color:rgba(255, 255, 255, 0.89);
+        color: black;
+        transition: background-color 0.3s linear;
+    }
+    .header{
+        
+        padding: 10px;
+        
+       
+    }
+    .header-img{
+        width: 180px;
+    }
+    .negro{
+        background:#0d0f14;
+        color: white;
+        transition: background-color 0.3s linear;
+    }
+    .negro .link{
+        color: white;
+    }
+    
+    .link{
+        margin-right: 20px;
+       
+        text-decoration: none;
+        font-size: 22px;
+    }
+    .link:hover{
+        color: #FF8F00;
+    }
+    
+    .carritoIMG{
+        width: 45px;
+        margin-right: 5px;
+    }
+
+    
+    .navbar{
+       
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        
+    }
+    
+}

@@ -1,0 +1,143 @@
+.footer{
+    width: 100%;
+    height: 100px;
+    padding:10px;
+    background:#000000;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#fff;
+
+  
+}
+.footer .footer-titulo{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:center;
+}
+
+
+
+.footer .footer-titulo p{
+   margin-right: 20px;
+   font-size: 18px;
+   margin-bottom:0;
+    
+}
+.footer .social a img{
+    width:30px;
+    margin-right:15px;
+}
+
+.footer .social{
+    display: flex;
+    align-items:center;
+}
+
+.container-footer{
+  
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    bottom:0;
+}
+
+
+@media (min-width: 768px) {
+
+    
+    .footer .footer-titulo{
+        display: flex;
+        align-items:center;
+        flex-direction: row;
+        justify-content:center;
+    }
+    
+
+
+
+.footer .footer-titulo p{
+   margin-right: 30px;
+   font-size: 20px;
+   margin-bottom:0;
+    
+}
+.footer .social a img{
+    width:40px;
+    margin-right:30px;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    padding:10px;
+    background:#000000;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#fff;
+
+  
+}
+
+}
+
+/*
+className={`navigation  ${this.state.visibilidad}`
+    constructor(props) {
+        super(props)
+        this.state = {
+            navColor: 'negro'
+        }
+       // this.myRef = React.createRef();
+        this.scrollDetection = this.scrollDetection.bind(this);
+      }
+    
+      componentDidMount () {
+          this.setState({
+                 navColor:'negro'
+              })
+              
+        window.addEventListener('scroll', this.scrollDetection);   
+              
+      }
+      
+    
+     /*   scrollDetection (){
+          this.setState({
+            visibilidad:'mostrar'
+            })
+            console.log('hay movimiento')
+            setTimeout(() => {
+              console.log("Ocultado")
+              this.setState({
+                visibilidad:'ocultar'
+                })
+            }, 3000);
+           
+        }
+
+         ${this.state.visibilidad}
+        */
+/*
+        scrollDetection() {
+            let actual = window.scrollY;
+            actual = actual.toFixed()
+            let maximoDeLaVentana = document.body.offsetHeight;
+            let porcentaje = (actual*100)/maximoDeLaVentana
+            porcentaje = porcentaje.toFixed()
+            
+            if(porcentaje > 25){
+                this.setState({
+                    navColor:'blanco'
+                 })
+            }else{
+                this.setState({
+                    navColor:'negro'
+                 })
+            }
+         }
+           
+            
+
+*/

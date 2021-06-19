@@ -1,0 +1,145 @@
+.Containerlog{
+   
+   height:800px;
+   padding-bottom: 50px;
+}
+
+.row{
+    min-height: 300px;
+    
+    
+}
+
+.Container-form{
+    margin-bottom: 20px;
+}
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: rgb(255, 248, 248);
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    min-height: 300px;
+    margin-bottom: 15px;
+}
+
+.form-titulo{
+    font-weight: 500;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+form .form-content{
+    width:100%;
+    margin-top: 20px;
+}
+
+form .form-content p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+form .form-content input{
+    width:100%;
+    
+    border: 1px solid rgb(158, 158, 158);
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+}
+form .form-content input::placeholder{
+    color: #000;
+}
+
+form .form-btn{
+    margin-top: 30px;
+}
+
+form .form-btn button{
+    font-size: 20px;
+}
+
+.pregunta{
+    background-color: #f1eded;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    padding:15px;
+}
+
+.pregunta p{
+    margin: 0;
+    font-size: 18px;
+}
+
+.pregunta-btn{
+    margin-left: 15px;
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+} 
+
+/*#FFAB5E*/
+
+@media (min-width: 550px) {
+    .container{
+        margin-top: 180px;
+        
+    }
+    .row{
+        min-height: 280px;
+        
+        
+    }
+
+    form {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        background-color: rgb(255, 248, 248);
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        min-height: 280px;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width: 345px) {
+    .form-titulo{
+       font-size: 32px;
+    }
+
+    .pregunta p{
+        margin: 0;
+        font-size: 16px;
+    }
+    
+    .pregunta-btn{
+        margin-left: 10px;
+        color:rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 500;
+    } 
+
+    form .form-content input{
+       
+        padding: 3px;
+        font-size: 18px;
+    }
+}
