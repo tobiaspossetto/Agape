@@ -33,4 +33,4 @@ on:
     - name: deploy the app
   run: npm run deploy
   env:
-   GH_TOKEN: ${{ secrets.AGAPE }}
+   AGAPE: ${{ secrets.AGAPE }}
