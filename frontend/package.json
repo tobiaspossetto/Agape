@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "tobiaspossetto.github.io/Agape",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
@@ -29,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://$AGAPE@github.com/tobiaspossetto/Agape"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +55,7 @@
   "devDependencies": {
     "bootstrap": "^5.0.0-beta3",
     "bootstrap-loader": "^3.0.4",
+    "gh-pages": "^3.2.2",
     "jquery": "^3.6.0",
     "tether": "^2.0.0"
   }
