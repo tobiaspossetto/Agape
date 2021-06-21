@@ -19,7 +19,7 @@ import Vistaproducto from './components/products/Vistaproducto'
 import Carrito from './components/shop/Carrito'
 class App extends Component {
 
-  
+  //comentarip
     render() {
 
       return (

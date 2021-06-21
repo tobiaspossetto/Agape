@@ -10,7 +10,7 @@ class Signin extends Component {
        
 
         return (
-            <div className="ContainerLog ">
+            <div className="Container">
                 <Row className="row">
                     <Col xs={12} md={6} className="mx-auto" >
                         <div className="Container-form z-depth-2">

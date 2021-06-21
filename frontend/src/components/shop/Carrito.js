@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom';
 
 import Producto from './Producto'
 
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import Button from '@material-ui/core/Button';
 require('./carrito.css')
 class Carrito extends Component {
 
@@ -30,7 +32,22 @@ class Carrito extends Component {
                     <Producto></Producto>
                     <Producto></Producto>
                     <Producto></Producto>
+
+
+                    <div className="confirmacion ">
+                        <h4>Confirmar pedido</h4>
+                        <Button
+                            variant="contained"
+                            color="secondary"
+                            size="small"
+                            startIcon={<ShoppingBasketIcon />}
+                            >
+                            Confirmar
+                        </Button>
+                    </div>
                 </Row>
+
+
             </Container >
 
 

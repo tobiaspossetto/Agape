@@ -37,7 +37,16 @@ tr td{
 }
 
 
+.confirmacion{
+ margin: auto;
+ text-align: center;
+ 
+}
 
+.confirmacion h4{
+    font-weight: 400;
+    font-size: 30px;
+}
 
 /* .carrito{
  
